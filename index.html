@@ -23,7 +23,8 @@
     }
 
     .rhombus {
-      width: 60%;
+      width: 100%;
+      max-width: 500px;
       height: 100%;
       transform: skew(-15deg, -0deg);
       background-color: #111;
@@ -41,6 +42,8 @@
       box-shadow: 2px 2px 5px #000;
       display: inline-block;
       font-size: 1.5rem;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .frame {
@@ -49,6 +52,11 @@
       background-color: #303030;
       border: 1px solid #898980;
       border-radius: 50%;
+    }
+    .social-container {
+      max-width: 200px;
+      margin-left: auto;
+      margin-right: auto;
     }
   </style>
 </head>
@@ -61,19 +69,20 @@
       <FONT COLOR="00BAFF">Xeokn</FONT>
     </h1>
     <p class="text-white fst-italic">"A variety streamer of some variety"</p>
-    <a href="https://www.twitch.tv/xeokn" title="Twitch"
-      class="text-white text-center bi-twitch social rounded-circle"></a>
-    <a href="https://twitter.com/XeoknOwem" title="Twitter"
-      class="text-white text-center bi-twitter social rounded-circle"></a>
-    <a href="https://www.youtube.com/xeokn" title="YouTube"
-      class="text-white text-center bi-youtube social rounded-circle"></a>
-    <br />
-    <a href="https://discord.gg/hhatn49hjd" title="Discord"
-      class="text-white text-center bi-discord social rounded-circle"></a>
-    <a href="https://throne.com/xeokn" title="Throne" class="text-white text-center bi-gift social rounded-circle"></a>
-    <a href="https://github.com/xeokn" title="GitHub"
-      class="text-white text-center bi-github social rounded-circle"></a>
-
+    <div class="row social-container">
+      <div class='col-4 col-sm-4'><a href="https://www.twitch.tv/xeokn" title="Twitch"
+          class="text-white text-center bi-twitch social rounded-circle"></a></div>
+      <div class='col-4 col-sm-4'><a href="https://twitter.com/XeoknOwem" title="Twitter"
+          class="text-white text-center bi-twitter social rounded-circle"></a></div>
+      <div class='col-4 col-sm-4'><a href="https://www.youtube.com/xeokn" title="YouTube"
+          class="text-white text-center bi-youtube social rounded-circle"></a></div>
+      <div class='col-4 col-sm-4'><a href="https://discord.gg/hhatn49hjd" title="Discord"
+          class="text-white text-center bi-discord social rounded-circle"></a></div>
+      <div class='col-4 col-sm-4'><a href="https://throne.com/xeokn" title="Throne"
+          class="text-white text-center bi-gift social rounded-circle"></a></div>
+      <div class='col-4 col-sm-4'><a href="https://github.com/xeokn" title="GitHub"
+          class="text-white text-center bi-github social rounded-circle"></a></div>
+    </div>
   </div>
 
 
