@@ -77,3 +77,11 @@ body {
     text-shadow: 3px 3px 5px #000;
     visibility: hidden;
   }
+  .blink {
+    animation: blinker 2s linear infinite;
+  }
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
