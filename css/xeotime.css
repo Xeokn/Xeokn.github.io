@@ -65,7 +65,7 @@ body {
   .social.bluesky:hover {
     background-image: linear-gradient(#0a7aff, #5989ff 80%)
   }
-  .social.bi-box2-heart-fill:hover {
+  .social.throne:hover {
     background-color: #1B0B3B;
   }
   .social.bi-github:hover {
@@ -89,4 +89,9 @@ body {
     width: 3rem;
     height: 3rem;
     content:url(/images/bsky.png);
+  }
+  .throne {
+    width: 3rem;
+    height: 3rem;
+    content:url(/images/throne.png);
   }
