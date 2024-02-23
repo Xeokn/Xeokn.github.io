@@ -62,7 +62,7 @@ body {
   .social.bi-twitter:hover {
     background-color: #1da1f2;
   }
-  .social.bi-square:hover {
+  .social.bluesky:hover {
     background-image: linear-gradient(#0a7aff, #5989ff 80%)
   }
   .social.bi-box2-heart-fill:hover {
@@ -84,4 +84,9 @@ body {
     50% {
       opacity: 0;
     }
+  }
+  .bluesky {
+    width: 3rem;
+    height: 3rem;
+    content:url(/images/bsky.png);
   }
