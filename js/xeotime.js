@@ -12,4 +12,5 @@ function liveNotif() {
         });
 };
 
+liveNotif();
 const liveCheck = setInterval(liveNotif, 60000)
