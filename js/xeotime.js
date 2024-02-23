@@ -1,5 +1,3 @@
-const liveCheck = setInterval(liveNotif, 60000)
-
 function liveNotif() {
     fetch("https://decapi.me/twitch/uptime/xeokn/?offline_msg=notstreaming")
         .then(resp => resp.text())
@@ -13,3 +11,5 @@ function liveNotif() {
             }
         });
 };
+
+const liveCheck = setInterval(liveNotif, 60000)
