@@ -118,35 +118,22 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
+  opacity: 100%;
   box-shadow: 5px 5px 10px #000;
 }
 
-.quotebox {
-  width: 500px;
-  height: 300px;
+.square h1 {
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+#quotebox {
+  width: 100%;
+  height: calc(100% - 3rem);
+  padding: .5rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #00baff;
-}
-
-.quotebox:-webkit-scrollbar {
-  width: 10px
-}
-
-.quotebox:-webkit-scrollbar-track {
-  background: #45445B;
-}
-
-.quotebox:-webkit-scrollbar-thumb {
-  background: #00baff;
-}
-
-.quotebox:-webkit-scrollbar-thumb:hover {
-  background: #fff;
-}
-.bi-incognito {
-  margin-left: -50%;
-  opacity: 0%;
-}
-.bi-incognito:hover {
-  opacity: 100%;
+  text-align: left;
+  overflow: auto;
+  scrollbar-width: thin;
 }
