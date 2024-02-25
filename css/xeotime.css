@@ -107,3 +107,39 @@ h1 {
   height: 3rem;
   content: url(/images/throne.png);
 }
+
+.square {
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  max-height: 400px;
+  background-color: #111;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  box-shadow: 5px 5px 10px #000;
+}
+
+.quotebox {
+  width: 500px;
+  height: 300px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #00baff;
+}
+
+.quotebox:-webkit-scrollbar {
+  width: 10px
+}
+
+.quotebox:-webkit-scrollbar-track {
+  background: #45445B;
+}
+
+.quotebox:-webkit-scrollbar-thumb {
+  background: #00baff;
+}
+
+.quotebox:-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
