@@ -143,3 +143,9 @@ h1 {
 .quotebox:-webkit-scrollbar-thumb:hover {
   background: #fff;
 }
+.bi-incognito {
+  visibility: hidden;
+}
+.bi-incognito:hover {
+  visibility: visible;
+}
