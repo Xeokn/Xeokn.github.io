@@ -144,8 +144,8 @@ h1 {
   background: #fff;
 }
 .bi-incognito {
-  visibility: hidden;
+  opacity: 0%;
 }
 .bi-incognito:hover {
-  visibility: visible;
+  opacity: 100%;
 }
