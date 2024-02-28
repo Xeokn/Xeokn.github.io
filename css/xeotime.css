@@ -133,6 +133,7 @@ h1 {
   padding: .5rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #00baff;
+  text-shadow: 3px 3px 5px #000;
   text-align: left;
   overflow: auto;
   scrollbar-width: thin;
