@@ -138,3 +138,17 @@ h1 {
   overflow: auto;
   scrollbar-width: thin;
 }
+
+.subtext {
+  display: block;
+  font-size: 0.75em;
+  font-style: italic;
+  opacity: 0.8;
+  margin-top: 0.5px;
+  margin-bottom: 5px;
+}
+
+.rules {
+  text-align: left;
+  padding-left: 1.2rem;
+}
