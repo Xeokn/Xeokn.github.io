@@ -144,13 +144,10 @@ h1 {
 .columnR {
   width: 100%;
   max-width: 500px;
-  height: 100%;
+  height: auto;
+  max-height: 80vh;
   background-color: #111;
-  background-image: linear-gradient(60deg, #000 10%, #222, #000 90%);
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5rem;
-  margin-bottom: auto;
+  background-image: linear-gradient(60deg, #000, #222, #000);
   overflow: auto;
   box-shadow: 5px 5px 10px #000;
 }
